@@ -10,4 +10,3 @@ function removeFromPlaylist(playlist,artistName){
 function updatePlaylist(list,artistName,songTitle){
      return Object.assign(list, { [artistName]: songTitle })
 }
-
