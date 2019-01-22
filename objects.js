@@ -1,5 +1,12 @@
-var playlist = new object();
+var playlist = {
+     deadmua5:'faxing berlin',
+     apextwin:'alberto balsam'
+}
 
-playlist = {
-     artist:'deadmau5'
+function updatePlaylist(list,artistName,songTitle){
+     return Object.assign(list, { [artistName]: songTitle })
+}
+
+function removeFromPlaylist(Playlist,artistName){
+
 }
